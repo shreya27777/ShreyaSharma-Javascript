@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="login.js"></script>
+    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<div class="container-fluid py-3 ">
+    <div class="center container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-1"></div>
+            <div class="col-lg-6 col-sm-10 p-5">
+                <div class="container-fluid ">
+                    <form>
+                        <div class="row sign-in-color text-light p-3">
+                            <div class="col-sm-4 text-left"><span class="material-icons">supervised_user_circle</span>
+                            </div>
+                            <div class="col-sm-4 text-center"><b>Sign here</b></div>
+                            <div class="col-sm-4 text-right">
+                                <span class="material-icons"><a href="#" class="text-light">close</a></span>
+                            </div>
+                        </div>
+                        <div class="bg-light row px-4 pt-3 pb-2">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="email" placeholder="mail@example.com">
+                                <div class="input-group-append">
+                                    <button class="btn"><span class="material-icons text-secondary">mail</span></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-light row px-4 pt-2 pb-3">
+                            <div class="input-group">
+                                <input type="password" class="form-control" id="password" placeholder="password">
+                                <div class="input-group-append">
+                                    <button class="btn"><span class="material-icons text-secondary">lock_open</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-light row p-2">
+                            <div class="col-sm-12 pt-2">
+                                <button type="button" id="sign-in" onclick="validate()" class="btn sign-in-color btn-block">
+                                    <b>SIGN IN</b></button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="row pb-4 px-2 bg-light">
+                        <div class="col-sm-6"><a href="#" class="color-sec"><b>Forgot your password?</b> </a></div>
+                        <div class="col-sm-6 text-right"><a href="#" class="color-sec"><b>Register!</b></a></div>
+                    </div>
+                    <div class="bg-light row p-2">
+                        <div class="col-sm-5">
+                            <hr/>
+                        </div>
+                        <div class="col-sm-2 text-secondary pt-1 text-center">OR</div>
+                        <div class="col-sm-5">
+                            <hr/>
+                        </div>
+                    </div>
+                    <div class="row bg-light px-2">
+                        <div class="col-sm-12 pt-2">
+                            <button type="button" class="btn btn-color btn-block">
+                                <img src="resources/facebook.png" style="width: 30px;height: 30px;" alt="facebook icon">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="bg-light px-2 row">
+                        <div class="col-sm-12 pt-2">
+                            <button type="button" class="btn btn-color1 btn-block">
+                                <img src="resources/google.png" style="width: 30px;height: 30px;" alt="google icon">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row p-2 bg-light text-light">one</div>
+                    <div class="bg-light row p-2">
+                        <div class="col-sm-12 pt-1">
+                            <button type="button" class="btn btn-color2 btn-block"><b> < EPAM LOGIN > </b></button>
+                        </div>
+                    </div>
+                    <div class="row p-2 bg-light text-light">one</div>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-1 "></div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
